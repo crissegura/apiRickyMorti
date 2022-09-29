@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    padding-bottom: 20px;
+    position: absolute;
+    min-height: 100vh;
+}
+
+.App{
+    font-family: 'Permanent Marker', cursive;
+}
+
+.imgDefecto{
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+/*NAV*/
+
+label{
+    color: white;
+}
+
+input{
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 20px;
+    border:solid 1px grey;
+    background-color: rgba(128, 128, 128, 0.466);
+    color: white;
+}
+
+.imgNav{
+    width: 60px;
+}
+
+/*CARD*/
+
+.cardContainer{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 15px;
+    text-align:center;
+}
+
+.titleCard{
+    padding-top: 15px;
+}
+
+/*FOOTER*/
+
+.footer{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    width: 100%;
+    color: white;
+    bottom:0px;
+    position:absolute;
+    padding: 3px;
+    margin: 0;
+}
+
