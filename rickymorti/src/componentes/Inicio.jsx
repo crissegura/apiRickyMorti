@@ -3,9 +3,10 @@ import Personajes from '../Personajes';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useState,useEffect} from 'react';
 import Navbarr from './Navbar';
+import Footer from './Footer';
 
 
-function App() {
+function Inicio() {
 
   const [ texto, setTexto ] = useState([])
   const [ personaje, setPersonaje ] = useState ([]);
@@ -36,10 +37,12 @@ function App() {
 
   return (
     <div className="App">
+
       <Navbarr getTexto={getTexto} texto={texto} />
       <Personajes texto={texto}  personaje={bPersonaje}/>
+      <Footer />
     </div>
   );
 }
 
-export default App;
+export default Inicio;
